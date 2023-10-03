@@ -2,6 +2,33 @@
 
 # nodejs_mysql_web_app_kubernetes
 
+Follow these steps to install `eksctl` on your Ubuntu system:
+
+1. **Install `eksctl` using `curl`** (Recommended):
+
+   You can use the following `curl` command to download and install `eksctl`:
+
+   ```bash
+   sudo curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | sudo tar xz -C /usr/local/bin
+   ```
+
+   This command will download the latest version of `eksctl` and extract it to the `/usr/local/bin` directory, making it accessible system-wide.
+
+2. **Verify the installation**:
+
+   After the installation is complete, you can verify that `eksctl` is installed by running the following command:
+
+   ```bash
+   eksctl version
+   ```
+
+   This command should display the version of `eksctl` if it was installed successfully.
+
+3. **Add the AWS CLI** (if not already installed):
+
+   `eksctl` relies on the AWS CLI for certain operations. If you don't have the AWS CLI installed, you can follow the AWS documentation to install it: [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+
+
 Install and configure the latest version of `kubectl` on your system.
 
 1. Downloaded the latest version of `kubectl` using `curl`:
