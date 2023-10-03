@@ -76,5 +76,5 @@ echo -n "12345678" | base64
 
 # output: MTIzNDU2Nzg=
 ```
+<img width="1000" alt="Screenshot 2023-10-03 at 23 19 10" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/cfadecee-4586-48e9-ba90-c82c8be08658">
 
-<img width="1000" alt="Screenshot 2023-10-03 at 23 17 54" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/23366684-f221-49ad-a793-aa345a014302">
