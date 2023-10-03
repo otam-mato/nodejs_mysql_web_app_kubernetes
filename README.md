@@ -2,6 +2,8 @@
 
 # nodejs_mysql_web_app_kubernetes
 
+
+
 Follow these steps to install `eksctl` on your Ubuntu system:
 
 1. **Install `eksctl` using `curl`** (Recommended):
@@ -57,3 +59,14 @@ Install and configure the latest version of `kubectl` on your system.
    ```
 
  the latest version of `kubectl` installed and configured on your system.
+
+
+ ```
+eksctl create cluster \
+--name test-cluster \
+--version 1.28 \
+--region us-east-1\
+--nodegroup-name linux-nodes \
+--node-type t2.micro \
+--nodes 2 
+```
