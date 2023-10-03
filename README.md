@@ -70,3 +70,11 @@ eksctl create cluster \
 --node-type t2.micro \
 --nodes 2 
 ```
+
+```
+echo -n "12345678" | base64
+
+# output: MTIzNDU2Nzg=
+```
+
+<img width="1000" alt="Screenshot 2023-10-03 at 23 17 54" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/23366684-f221-49ad-a793-aa345a014302">
