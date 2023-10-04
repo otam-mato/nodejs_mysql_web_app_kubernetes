@@ -132,3 +132,29 @@ spec:
     - protocol: TCP
       port: 3306
       targetPort: 3306
+
+---
+# Ingress
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: test-ingress
+spec:
+  rules:
+    - host: aa4b78fe9557046c39c5117c6e5c6555-866225812.us-east-1.elb.amazonaws.com  # Replace with your actual hostname or IP
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: node-app-service-v1
+            port:
+              number: 80
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: node-app-service-v2
+            port:
+              number: 80
