@@ -28,7 +28,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: node-app-deployment
+  name: node-app-deployment-v1
 spec:
   replicas: 2 # You can adjust the number of replicas as needed
   selector:
@@ -54,9 +54,9 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: node-app-deployment
+  name: node-app-deployment-v2
 spec:
-  replicas: 2 # You can adjust the number of replicas as needed
+  replicas: 1 # You can adjust the number of replicas as needed
   selector:
     matchLabels:
       app: node-app
