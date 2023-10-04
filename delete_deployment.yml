@@ -1,0 +1,106 @@
+# MySQL Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-deployment
+spec:
+  replicas: 1 # You can adjust the number of replicas as needed
+  selector:
+    matchLabels:
+      app: mysql-app
+  template:
+    metadata:
+      labels:
+        app: mysql-app
+    spec:
+      containers:
+        - name: mysql-server
+          image: montcarotte/fullstack_nodejs_mysql_demo:mysql_server_new
+          ports:
+            - containerPort: 3306
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: "12345678" # Use secrets for production
+
+---
+
+# Node.js Application Deployment v1
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-app-deployment
+spec:
+  replicas: 2 # You can adjust the number of replicas as needed
+  selector:
+    matchLabels:
+      app: node-app
+  template:
+    metadata:
+      labels:
+        app: node-app
+    spec:
+      containers:
+        - name: node-app
+          image: montcarotte/fullstack_nodejs_mysql_demo:node_app_v1
+          ports:
+            - containerPort: 3000
+          env:
+            - name: APP_DB_HOST
+              value: mysql-service # Use the service name to reach the MySQL pod
+            - name: APP_DB_USER
+              value: "admin"
+
+# Node.js Application Deployment v2
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-app-deployment
+spec:
+  replicas: 2 # You can adjust the number of replicas as needed
+  selector:
+    matchLabels:
+      app: node-app
+  template:
+    metadata:
+      labels:
+        app: node-app
+    spec:
+      containers:
+        - name: node-app
+          image: montcarotte/fullstack_nodejs_mysql_demo:node_app_v2
+          ports:
+            - containerPort: 3000
+          env:
+            - name: APP_DB_HOST
+              value: mysql-service # Use the service name to reach the MySQL pod
+            - name: APP_DB_USER
+              value: "admin"
+                
+---
+# Node.js Application Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-app-service
+spec:
+  selector:
+    app: node-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+  type: LoadBalancer
+
+---
+# MySQL Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql-service
+spec:
+  selector:
+    app: mysql-app
+  ports:
+    - protocol: TCP
+      port: 3306
+      targetPort: 3306
