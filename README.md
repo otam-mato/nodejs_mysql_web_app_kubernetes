@@ -218,7 +218,7 @@ Before starting, ensure the following prerequisites are met:
 
 <br>
 
->**Note:** To achieve more advanced traffic distribution between different versions in a production environment, an Ingress controller like 'Istio' or 'NGINX ingress is typically used.' It's worth noting that I plan to implement this advanced setup in my upcoming projects to keep the current one focused and straightforward.
+>**Note:** To achieve more advanced traffic distribution between different versions in a production environment, an Ingress controller like 'Istio' or 'NGINX ingress' is typically used. It's worth noting that I plan to implement this advanced setup in my upcoming projects to keep the current one focused and straightforward.
 
 
 
