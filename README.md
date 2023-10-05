@@ -182,9 +182,10 @@ Before starting, ensure the following prerequisites are met:
    
    </details>
 
-7. <details markdown=1><summary markdown="span">Create infrastructure for your EKS cluster.</summary>
-   ```
-   ```
+7. <details markdown=1><summary markdown="span">Create the infrastructure for your EKS cluster.</summary>
+
+   [The example of AWS CloudFormation template which you can apply](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/305d93c75ea4fbfd5785f0862ac44e9a220f4642/EKS_sample_VPC.yml)
+
    </details>
 
 <br>
