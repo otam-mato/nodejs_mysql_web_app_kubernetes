@@ -1,5 +1,6 @@
 [under revision]
 
+
 # Node.JS + MySQL Web App. Kubernetes "canary" deployment.
 
 <br>
@@ -94,6 +95,10 @@ Follow these steps for successful implementation:
 
 <p align="center">
   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/42ff2b42-1e9d-4b5a-87ff-f8264bc4034e" width="700px"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/fe16e4b9-d62a-491f-8dc2-3f612c6ffb6c" width="700px"/>
 </p>
 
 <p align="center">
