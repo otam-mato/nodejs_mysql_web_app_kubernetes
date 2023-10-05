@@ -228,10 +228,11 @@ kubectl scale deployment <deployment-name> --replicas=4
 
 ### 7. Test the app
 
-   <p align="center">
      <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/06d351e7-eba6-4c28-a44a-57a842d4070b" width="200px"/>
-   </p>
+     <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/06d351e7-eba6-4c28-a44a-57a842d4070b" width="200px"/>
+     <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/47360c3a-a568-456b-8dfc-67cc2e1bc948" width="200px"/>
 
+     
 <br>
 
 >**Note:** To achieve more advanced traffic distribution between different versions in a production environment, an Ingress controller like 'Istio' or 'NGINX ingress' is typically used. I plan to implement this advanced setup in my upcoming projects to keep the current one focused and straightforward.
