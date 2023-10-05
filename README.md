@@ -90,6 +90,28 @@ Follow these steps for successful implementation:
 
 <br>
 
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/42ff2b42-1e9d-4b5a-87ff-f8264bc4034e" width="700px"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/otammato/FullStack_NodeJS_MySql_Docker/assets/104728608/ccab549a-0045-489b-9ff8-02de5ef921fa" width="700px"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/otammato/FullStack_NodeJS_MySql_Docker/assets/104728608/cf51b385-90d9-4a47-be53-0ca66e1b797d" width="700px"/>
+</p>
+
+<br>
+
+## Architecture Diagram
+
+<p align="center">
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_docker/assets/113034133/bbbcb6e3-57dd-478c-9ff2-b37dfa6e6af3" width="700px"/>
+</p>
+
 ---
 
 Follow these steps to install `eksctl` on your Ubuntu system:
