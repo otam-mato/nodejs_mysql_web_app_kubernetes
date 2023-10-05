@@ -152,30 +152,30 @@ Before starting, ensure the following prerequisites are met:
    </details>
    
 6. <details markdown=1><summary markdown="span">Install `kubectl`.</summary>
-
+   <br>
    Follow this steps to install and configure the latest version of `kubectl` on your system.
 
-   - Download the latest version of `kubectl` using `curl`:
+   - **Download the latest version of `kubectl` using `curl`**:
       ```
       curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
       ```
    
-   - Make the downloaded `kubectl` binary executable:
+   - **Make the downloaded `kubectl` binary executable**:
       ```
       chmod +x kubectl
       ```
    
-   - Move the `kubectl` binary to the `/usr/local/bin/` directory to make it available system-wide:
+   - **Move the `kubectl` binary to the `/usr/local/bin/` directory to make it available system-wide**:
       ```
       sudo mv kubectl /usr/local/bin/
       ```
    
-   - Restart your shell session to ensure that the updated `kubectl` version is recognized:
+   - **Restart your shell session to ensure that the updated `kubectl` version is recognized**:
       ```
       exec bash
       ```
    
-   - Finally, check the `kubectl` version to confirm the update:
+   - **Finally, check the `kubectl` version to confirm the update**:
       ```
       kubectl version --client
       ```
