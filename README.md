@@ -14,7 +14,7 @@
 
 ## Deployment Strategy
 
-The "canary" strategy used to minimize the risk associated with rolling out new updates or features to a larger audience. It involves gradually exposing a small subset of users or systems to the new version of the software while monitoring its performance and stability.
+The "canary" deployment strategy is used to minimize the risk associated with rolling out new updates or features to a larger audience. It involves gradually exposing a small subset of users or systems to the new version of the software while monitoring its performance and stability.
 
 1. In this demo, we will deploy the app on a Kubernetes cluster using a "canary" strategy:
    - V1 deployment will host the version 1 and be exposed to ~66% of the traffic.
