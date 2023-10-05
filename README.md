@@ -20,7 +20,9 @@
 
    V1 and V2 versions uploaded into this [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
 
-2. The app and the database will be placed in separate Kubernetes pods to secure decoupling, resource isolation, scaling and resilience.
+   The "canary" approach, is a strategy used to minimize the risk associated with rolling out new updates or features to a larger audience. It involves gradually exposing a small subset of users or systems to the new version of the software while monitoring its performance and stability. 
+
+3. The app and the database will be placed in separate Kubernetes pods to secure decoupling, resource isolation, scaling and resilience.
 
 <br>
 
