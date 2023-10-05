@@ -93,7 +93,7 @@ Follow these steps for successful implementation:
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/42ff2b42-1e9d-4b5a-87ff-f8264bc4034e" width="700px"/>
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/4136a3fe-e4f2-4b7e-8ba6-72088bd1e78d" width="700px"/>
 </p>
 
 <p align="center">
@@ -101,7 +101,7 @@ Follow these steps for successful implementation:
 </p>
 
 <p align="center">
-  <img src="https://github.com/otammato/FullStack_NodeJS_MySql_Docker/assets/104728608/cf51b385-90d9-4a47-be53-0ca66e1b797d" width="700px"/>
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/4136a3fe-e4f2-4b7e-8ba6-72088bd1e78d" width="700px"/>
 </p>
 
 <br>
