@@ -216,12 +216,21 @@ Before starting, ensure the following prerequisites are met:
 ### 4. Create the deployment of V2 of the app
 ### 5. Scale up the replicas of V2 up to 2 pods (which equals approx. 33%)
 
-       ```yml
-       kubectl scale deployment <deployment-name> --replicas=2
-       ```
+```yml
+kubectl scale deployment <deployment-name> --replicas=2
+```
        
 ### 6. Scale down the replicas of V1 up to 4 pods (which equals approx. 66%)
+
+```yml
+kubectl scale deployment <deployment-name> --replicas=4
+```
+
 ### 7. Test the app
+
+   <p align="center">
+     <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/06d351e7-eba6-4c28-a44a-57a842d4070b" width="200px"/>
+   </p>
 
 <br>
 
