@@ -208,13 +208,13 @@ Before starting, ensure the following prerequisites are met:
 
 ## Steps:
 
-## 1. Create the deployment of V1 of the app
-## 2. Create the service of a 'LoadBalancer' type to expose the cluster
-## 3. Create the service for the MySQL pod to set up the communication with NodeJS containers
-## 4. Create the deployment of V2 of the app
-## 5. Scale up the replicas of V2 up to 2 pods
-## 6. Scale down the replicas of V1 up to 4 pods
-## 7. Test the app
+### 1. Create the deployment of V1 of the app
+### 2. Create the service of a 'LoadBalancer' type to expose the cluster
+### 3. Create the service for the MySQL pod to set up the communication with NodeJS containers
+### 4. Create the deployment of V2 of the app
+### 5. Scale up the replicas of V2 up to 2 pods
+### 6. Scale down the replicas of V1 up to 4 pods
+### 7. Test the app
 
 <br>
 
