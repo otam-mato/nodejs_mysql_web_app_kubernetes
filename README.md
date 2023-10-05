@@ -216,12 +216,17 @@ Before starting, ensure the following prerequisites are met:
 
 ### 1. Create the deployment of V1 of the app
 
+- [Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)
+- Apply it:
+
 ```yml
 kubectl apply -f deployment_app_v1.yaml
 ```
-[link to deployment_app_v1.yml](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)
+
 
 ### 2. Apply mysql-secret
+
+[](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/fc47c5f1f31d1096260b45583b1ee59a30576811/deployment_mysql.yml)
 
 - **I encoded the DB password using base64 and pasted it into mysql-secret.yml:**
 
@@ -237,6 +242,8 @@ kubectl apply -f mysql-secret.yml
 
 
 ### 2. Create the deployment for mysql database
+
+- [link to a manifest 'deployment_mysql.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/fc47c5f1f31d1096260b45583b1ee59a30576811/deployment_mysql.yml)
 
 ```yml
 kubectl apply -f deployment_mysql.yml
