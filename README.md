@@ -219,6 +219,7 @@ Before starting, ensure the following prerequisites are met:
 ```yml
 kubectl apply -f deployment_app_v1.yaml
 ```
+[link to deployment_app_v1.yml](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)
 
 ### 2. Apply mysql-secret
 
