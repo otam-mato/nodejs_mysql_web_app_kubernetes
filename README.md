@@ -19,10 +19,7 @@
 
 2. The app and the database will be placed in separate Kubernetes pods to secure decoupling, resource isolation, scaling and resilience.
 
-
-
 <br>
-
 
 ## Technologies used
 - AWS
@@ -79,7 +76,19 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 </details>
 
+<br>
 
+## Implementation Steps
+
+Follow these steps for successful implementation:
+
+1. [**Create infrastructure for your cluster**](https://github.com/otam-mato/nodejs_mysql_web_app_docker/blob/main/README.md#1-mysql-containerized-server)
+2. [**Create a EKS cluster with 'eksctl'**](https://github.com/otam-mato/nodejs_mysql_web_app_docker/blob/main/README.md#2-nodejs-app-containerized-server)
+3. [**Deploy the V1 app**](https://github.com/otam-mato/nodejs_mysql_web_app_docker/blob/main/README.md#3-test-the-app)
+4. [**Deploy the V2 app**](https://github.com/otam-mato/nodejs_mysql_web_app_docker/blob/main/README.md#4-push-the-images-to-docker-hub)
+5. [**Test the app**](https://github.com/otam-mato/nodejs_mysql_web_app_docker/blob/main/README.md#4-push-the-images-to-docker-hub)
+
+<br>
 
 ---
 
