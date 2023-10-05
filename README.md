@@ -121,12 +121,36 @@ Before starting, ensure the following prerequisites are met:
 1. Launch an EC2 instance (I am using Ubuntu 22.04) to be used as a master node.
    
 3. <details markdown=1><summary markdown="span">Install and configure your AWS CLI.</summary>
-   
+   <br>
    `eksctl` relies on the AWS CLI for certain operations. If you don't have the AWS CLI installed, you can follow the AWS documentation to install it: [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
    
    </details>
 5. <details markdown=1><summary markdown="span">Install `eksctl`.</summary>
+   <br>
+   Follow these steps to install `eksctl` on your Ubuntu system:
+
+   - **Install `eksctl` using `curl`** (Recommended):
+   
+      You can use the following `curl` command to download and install `eksctl`:
+   
+      ```bash
+      sudo curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | sudo tar xz -C /usr/local/bin
+      ```
+   
+      This command will download the latest version of `eksctl` and extract it to the `/usr/local/bin` directory, making it accessible system-wide.
+   
+   - **Verify the installation**:
+   
+      After the installation is complete, you can verify that `eksctl` is installed by running the following command:
+   
+      ```bash
+      eksctl version
+      ```
+   
+      This command should display the version of `eksctl` if it was installed successfully.
+   
    </details>
+   
 6. <details markdown=1><summary markdown="span">Install `kubectl`.</summary>
    </details>
 
