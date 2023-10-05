@@ -9,7 +9,7 @@
 >
 > The app built using Node.js and Express, originally presented at this [GitHub Repository](https://github.com/otam-mato/nodejs_mysql_web_app_terraform.git). The previous project involved [deployment](https://github.com/otam-mato/nodejs_mysql_web_app_docker.git) on Docker containers.
 >
-> The current installment involves deploying the version 1 of the web app in a Kubernetes cluster. Then, we rollout the version 2 of the app, using the "canary" approach to redirect ~33% of traffic to version 2
+> In this current installment, we're taking a deeper dive by deploying the initial version of the web application within a Kubernetes cluster. Subsequently, we'll introduce the second version of the app and employ the "canary" deployment strategy, routing approximately 33% of incoming traffic to this new version.
 <br>
 
 ## Deployment Strategy
