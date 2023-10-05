@@ -211,9 +211,42 @@ Before starting, ensure the following prerequisites are met:
 ## Steps:
 
 ### 1. Create the deployment of V1 of the app
+
+```yml
+kubectl apply -f deployment_app_v1.yaml
+```
+
+### 2. Apply mysql-secret
+
+```yml
+kubectl apply -f mysql-secret.yaml
+```
+
+
+### 2. Create the deployment for mysql database
+
+```yml
+kubectl apply -f deployment_mysql.yaml
+```
+
 ### 2. Create the service of a 'LoadBalancer' type to expose the cluster
+
+```yml
+kubectl apply -f services.yaml
+```
+
 ### 3. Create the service for the MySQL pod to set up the communication with NodeJS containers
+
+```yml
+kubectl apply -f services.yaml
+```
+
 ### 4. Create the deployment of V2 of the app
+
+```yml
+kubectl apply -f deployment_app_v2.yaml
+```
+
 ### 5. Scale up the replicas of V2 up to 2 pods (which equals approx. 33%)
 
 ```yml
