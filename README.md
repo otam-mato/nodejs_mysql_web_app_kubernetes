@@ -15,7 +15,9 @@ In this demo, we will deploy the app on a Kubernetes cluster using a "canary" ap
 1. V1 deployment will host the version 1 an be exposed to ~66% of traffick.
 2. V2 deployment will host the version 2 an be exposed to ~33% of traffick.
 
-Following a successful deployment of V2, the V1 can be deprecared.
+For the deployment the app and the database will be placed in separate pods to secure decoupling, resource isolation, scaling and resilience.
+
+Following a successful deployment and testing of V2, the V1 can be deprecared.
 
 <br>
 
@@ -75,7 +77,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 </details>
 
-For the Kubernetes deployment the app and the database will be placed in separate pods to secure decoupling, resource isolation, scaling and resilience.
+
 
 ---
 
