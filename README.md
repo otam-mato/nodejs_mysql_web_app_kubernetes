@@ -121,7 +121,7 @@ Follow these steps for successful implementation:
   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/81d3e8e2-0623-4629-9096-8bc0bd28aee8" width="1000px"/>
 </p>
 
->**Note:** For demo purposes I am deploying only one pod of MySQL container as using extra pods requires advanced setting up to replicate and deliver the same data. I plan to implement this advanced setup in my upcoming projects to keep the current one focused and straightforward.
+>**Note:** For demo purposes I have chosen to deploy just a single MySQL container pod. Configuring additional pods for replication and data synchronization involves more intricate configurations. I intend to incorporate these advanced setups in my future projects, ensuring that the current project remains concise and straightforward.
 
 <br>
 
