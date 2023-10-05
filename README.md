@@ -217,6 +217,7 @@ Before starting, ensure the following prerequisites are met:
 ### 1. Create the deployment of V1 of the app
 
 - **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+
 - **Apply it**:
 
 ```yml
@@ -234,6 +235,8 @@ kubectl apply -f deployment_app_v1.yaml
    <img width="800" alt="Screenshot 2023-10-05 at 19 33 42" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/cfadecee-4586-48e9-ba90-c82c8be08658"> 
 </p>
 
+- **[Download the manifest 'mysql-secret.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/4a8939fcb82b53323fa52a37c6b398ef99575961/mysql-secret.yml)**
+
 - **Create the secret:**
 
 ```yml
@@ -243,7 +246,9 @@ kubectl apply -f mysql-secret.yml
 
 ### 2. Create the deployment for mysql database
 
-- [link to a manifest 'deployment_mysql.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/fc47c5f1f31d1096260b45583b1ee59a30576811/deployment_mysql.yml)
+- **[Download the manifest 'deployment_mysql.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/fc47c5f1f31d1096260b45583b1ee59a30576811/deployment_mysql.yml)**
+
+- **Apply it**:
 
 ```yml
 kubectl apply -f deployment_mysql.yml
@@ -251,17 +256,29 @@ kubectl apply -f deployment_mysql.yml
 
 ### 2. Create the service of a 'LoadBalancer' type to expose the cluster
 
+- **[Download the manifest 'services.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/4a8939fcb82b53323fa52a37c6b398ef99575961/services.yml)**
+
+- **Apply it**:
+
 ```yml
 kubectl apply -f services.yml
 ```
 
 ### 3. Create the service for the MySQL pod to set up the communication with NodeJS containers
 
+- **[Download the manifest 'services.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/4a8939fcb82b53323fa52a37c6b398ef99575961/services.yml)**
+
+- **Apply it**:
+
 ```yml
 kubectl apply -f services.yml
 ```
 
 ### 4. Create the deployment of V2 of the app
+
+- **[Download the manifest 'deployment_app_v2.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/4a8939fcb82b53323fa52a37c6b398ef99575961/deployment_app_v2.yml)**
+
+- **Apply it**:
 
 ```yml
 kubectl apply -f deployment_app_v2.yml
