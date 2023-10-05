@@ -222,33 +222,39 @@ kubectl apply -f deployment_app_v1.yaml
 
 ### 2. Apply mysql-secret
 
+- **I encoded the DB password using base64 and pasted it into mysql-secret.yml:**
+
+<img width="1000" alt="Screenshot 2023-10-03 at 23 19 10" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/cfadecee-4586-48e9-ba90-c82c8be08658">
+
+- **Create the secret:**
+
 ```yml
-kubectl apply -f mysql-secret.yaml
+kubectl apply -f mysql-secret.yml
 ```
 
 
 ### 2. Create the deployment for mysql database
 
 ```yml
-kubectl apply -f deployment_mysql.yaml
+kubectl apply -f deployment_mysql.yml
 ```
 
 ### 2. Create the service of a 'LoadBalancer' type to expose the cluster
 
 ```yml
-kubectl apply -f services.yaml
+kubectl apply -f services.yml
 ```
 
 ### 3. Create the service for the MySQL pod to set up the communication with NodeJS containers
 
 ```yml
-kubectl apply -f services.yaml
+kubectl apply -f services.yml
 ```
 
 ### 4. Create the deployment of V2 of the app
 
 ```yml
-kubectl apply -f deployment_app_v2.yaml
+kubectl apply -f deployment_app_v2.yml
 ```
 
 ### 5. Scale up the replicas of V2 up to 2 pods (which equals approx. 33%)
