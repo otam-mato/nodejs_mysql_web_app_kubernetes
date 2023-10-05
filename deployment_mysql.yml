@@ -19,5 +19,12 @@ spec:
           ports:
             - containerPort: 3306
           env:
-            - name: MYSQL_ROOT_PASSWORD
-              value: "12345678" # Use secrets for production
+            - name: APP_DB_HOST
+              value: mysql-service
+            - name: APP_DB_USER
+              value: "admin"
+            - name: APP_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret # make sure you applied mysql-secret.yml to make this deployment work, it uses data from the file
+                  key: password 
