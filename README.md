@@ -15,7 +15,7 @@
    - V1 deployment will host the version 1 an be exposed to ~66% of traffick.
    - V2 deployment will host the version 2 an be exposed to ~33% of traffick.
 
-I uploaded V1 and V1 versions to this [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
+  I uploaded V1 and V1 versions to this [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
 
 2. The app and the database will be placed in separate Kubernetes pods to secure decoupling, resource isolation, scaling and resilience.
 
