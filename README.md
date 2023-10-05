@@ -119,11 +119,12 @@ Follow these steps for successful implementation:
 Before starting, ensure the following prerequisites are met:
 
 1. Launch an EC2 instance (I am using Ubuntu 22.04) to be used as a master node.
-2. <details markdown=1><summary markdown="span">Install and configure your AWS CLI.</summary>
+   
+3. <details markdown=1><summary markdown="span">Install and configure your AWS CLI.</summary>
    </details>
-3. <details markdown=1><summary markdown="span">Install `eksctl`.</summary>
+4. <details markdown=1><summary markdown="span">Install `eksctl`.</summary>
    </details>
-4. <details markdown=1><summary markdown="span">Install `kubectl`.</summary>
+5. <details markdown=1><summary markdown="span">Install `kubectl`.</summary>
    </details>
 
 
