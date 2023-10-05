@@ -123,7 +123,7 @@ Before starting, ensure the following prerequisites are met:
    </details>
 3. <details markdown=1><summary markdown="span">Install `eksctl`.</summary>
    </details>
-4.<details markdown=1><summary markdown="span">Install `kubectl`.</summary>
+4. <details markdown=1><summary markdown="span">Install `kubectl`.</summary>
    </details>
 
 
