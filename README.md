@@ -229,6 +229,10 @@ kubectl scale deployment <deployment-name> --replicas=4
 ### 7. Test the app
 
 <p align="center">
+   <img width="1000" alt="Screenshot 2023-10-05 at 19 33 42" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/4dc9675e-6e42-4536-b549-74d1545a1ba4">
+</p>
+
+<p align="center">
    <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/06d351e7-eba6-4c28-a44a-57a842d4070b" width="300px"/>
    <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/06d351e7-eba6-4c28-a44a-57a842d4070b" width="300px"/>
    <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/47360c3a-a568-456b-8dfc-67cc2e1bc948" width="300px"/>
