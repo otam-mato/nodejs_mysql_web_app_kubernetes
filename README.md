@@ -123,6 +123,10 @@ Follow these steps for successful implementation:
 
 <br>
 
+>**Note:** For demo purposes I am deploying only one pod of MySQL container as deploying extra requires advanced setting up to replicate and deliver the same data. I plan to implement this advanced setup in my upcoming projects to keep the current one focused and straightforward.
+
+<br>
+
 ## Prerequisites
 
 Before starting, ensure the following prerequisites are met:
