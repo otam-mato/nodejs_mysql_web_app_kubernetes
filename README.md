@@ -12,8 +12,8 @@
 ## Deployment Strategy
 
 1. In this demo, we will deploy the app on a Kubernetes cluster using a "canary" approach:
-   - V1 deployment will host the version 1 an be exposed to ~66% of traffik.
-   - V2 deployment will host the version 2 an be exposed to ~33% of traffik.
+   - V1 deployment will host the version 1 and be exposed to ~66% of traffik.
+   - V2 deployment will host the version 2 and be exposed to ~33% of traffik.
 
    I uploaded V1 and V1 versions to this [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
 
