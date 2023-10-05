@@ -109,7 +109,7 @@ Follow these steps for successful implementation:
 ## Architecture Diagram
 
 <p align="center">
-  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_docker/assets/113034133/bbbcb6e3-57dd-478c-9ff2-b37dfa6e6af3" width="700px"/>
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/4136a3fe-e4f2-4b7e-8ba6-72088bd1e78d" width="700px"/>
 </p>
 
 <br>
