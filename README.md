@@ -109,6 +109,10 @@ Follow these steps for successful implementation:
   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/b0f5ee8a-ed8f-4727-8cc0-e3f64779c401" width="700px"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/2121055f-2a92-4d42-bae1-b38de16110c4" width="700px"/>
+</p>
+
 <br>
 
 ## Architecture Diagram
