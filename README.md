@@ -96,10 +96,6 @@ Follow these steps for successful implementation:
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/42ff2b42-1e9d-4b5a-87ff-f8264bc4034e" width="700px"/>
-</p>
-
-<p align="center">
   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/7edead55-90b5-4e4e-9a45-eb9c2497547b" width="700px"/>
 </p>
 
@@ -200,11 +196,23 @@ Before starting, ensure the following prerequisites are met:
 6. <details markdown=1><summary markdown="span">Create your Kubernetes cluster in AWS EKS using `eksctl`</summary>
    <br>
    ```
-   eksctl create cluster --name test-cluster4 --version 1.28 --region us-east-1 --nodegroup-name nodejs-nodes --node-type t2.micro --nodes 2
+   eksctl create cluster --name test-cluster4 --version 1.28 --region us-east-1 --nodegroup-name nodejs-nodes --node-type t2.micro --nodes 5
    ```
+   <p align="center">
+     <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/42ff2b42-1e9d-4b5a-87ff-f8264bc4034e" width="700px"/>
+   </p>
+   
    </details>
 
 <br>
+
+## Steps:
+
+## 1. Create the deployment of V1 of the app
+## 2. Create the service of a 'LoadBalancer' type to expose the cluster
+## 3. Create the service for the MySQL pod to set up the communication with NodeJS containers
+
+
 
 ---
 
