@@ -1,6 +1,6 @@
 [under revision]
 
-# Node.JS + MySQL Web App. Kubernetes canary deployment.
+# Node.JS + MySQL Web App. Kubernetes "canary" deployment.
 
 <br>
 
