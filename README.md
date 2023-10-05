@@ -195,6 +195,7 @@ Before starting, ensure the following prerequisites are met:
 
 6. <details markdown=1><summary markdown="span">Create your Kubernetes cluster in AWS EKS using `eksctl`</summary>
    <br>
+   
    ```
    eksctl create cluster --name test-cluster4 --version 1.28 --region us-east-1 --nodegroup-name nodejs-nodes --node-type t2.micro --nodes 5
    ```
