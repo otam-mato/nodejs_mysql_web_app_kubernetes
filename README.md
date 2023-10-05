@@ -112,6 +112,19 @@ Follow these steps for successful implementation:
   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_docker/assets/113034133/bbbcb6e3-57dd-478c-9ff2-b37dfa6e6af3" width="700px"/>
 </p>
 
+<br>
+
+## Prerequisites
+
+Before starting, ensure the following prerequisites are met:
+
+1. Launch an EC2 instance (I am using Ubuntu 22.04) to be used as a master node.
+2. Install and configure your AWS CLI (command `aws configure`).
+3. Install `eksctl`.
+4. Install `kubectl`.
+
+<br>
+
 ---
 
 Follow these steps to install `eksctl` on your Ubuntu system:
