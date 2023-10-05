@@ -121,6 +121,7 @@ Before starting, ensure the following prerequisites are met:
 1. Launch an EC2 instance (I am using Ubuntu 22.04) to be used as a master node.
    
 3. <details markdown=1><summary markdown="span">Install and configure your AWS CLI.</summary>
+   `eksctl` relies on the AWS CLI for certain operations. If you don't have the AWS CLI installed, you can follow the AWS documentation to install it: [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
    </details>
 4. <details markdown=1><summary markdown="span">Install `eksctl`.</summary>
    </details>
