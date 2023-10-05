@@ -1,8 +1,36 @@
 [under revision]
 
-# nodejs_mysql_web_app_kubernetes
+# Node.JS + MySQL Web App. Kubernetes canary deployment.
+
+<br>
+
+> **Note:** This is part of a series of demo projects in which I manipulate a Node.js application using various technologies.<br>
+>
+> The current installment involves deploying the web app in a Kubernetes cluster. The app built using Node.js and Express, originally presented at this [GitHub Repository](https://github.com/otam-mato/nodejs_mysql_web_app_terraform.git). The previous [deployment](https://github.com/otam-mato/nodejs_mysql_web_app_docker.git) was on Docker containers.
+<br>
+
+## Deployment Strategy
+
+In this demo, we will deploy the app on a Kubernetes cluster using a "canary" approach:
+1. V1 deployment will host the version 1 an be exposed to ~66% of traffick.
+2. V2 deployment will host the version 2 an be exposed to ~33% of traffick.
+
+Following a successful deployment of V2, the V1 can be deprecared.
+
+<br>
 
 
+## Technologies used
+- AWS
+- EKS
+- Node.JS
+- Express
+- JavaScript
+- MySQL
+- Kubernetes
+<br>
+
+---
 
 Follow these steps to install `eksctl` on your Ubuntu system:
 
