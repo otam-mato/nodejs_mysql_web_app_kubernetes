@@ -238,14 +238,15 @@ kubectl scale deployment <deployment-name> --replicas=4
 
 <br>
 
-- **Paste the Load Balancer's DNS name into your browser and refresh the page a few times to see the traffic is distributed between two versions of the app**:
+- **Paste the Load Balancer's DNS name into your browser and refresh the page a few times to see the traffic is distributed between the two versions of the app**:
 
 <br>
 
 <p align="center">
-   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/06d351e7-eba6-4c28-a44a-57a842d4070b" width="300px"/>
-   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/06d351e7-eba6-4c28-a44a-57a842d4070b" width="300px"/>
    <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/47360c3a-a568-456b-8dfc-67cc2e1bc948" width="300px"/>
+   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/47360c3a-a568-456b-8dfc-67cc2e1bc948" width="300px"/>
+   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/06d351e7-eba6-4c28-a44a-57a842d4070b" width="300px"/>
+   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/06d351e7-eba6-4c28-a44a-57a842d4070b" width="300px"/>
 </p>
      
 <br>
