@@ -97,11 +97,12 @@ Follow these steps for successful implementation:
 </p>
 
 <p align="center">
-  <img src="https://github.com/otammato/FullStack_NodeJS_MySql_Docker/assets/104728608/ccab549a-0045-489b-9ff8-02de5ef921fa" width="700px"/>
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/b0f5ee8a-ed8f-4727-8cc0-e3f64779c401" width="700px"/>
 </p>
 
+
 <p align="center">
-  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/4136a3fe-e4f2-4b7e-8ba6-72088bd1e78d" width="700px"/>
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/a1a5042a-d944-4887-9a34-65e3a0959e3a" width="700px"/>
 </p>
 
 <br>
