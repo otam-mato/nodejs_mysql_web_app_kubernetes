@@ -182,6 +182,10 @@ Before starting, ensure the following prerequisites are met:
    
    </details>
 
+7. <details markdown=1><summary markdown="span">Create infrastructure for your EKS cluster.</summary>
+   ```
+   ```
+   </details>
 
 <br>
 
