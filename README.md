@@ -127,8 +127,6 @@ Follow these steps for successful implementation:
 
 ## Prerequisites
 
-Before starting, ensure the following prerequisites are met:
-
 - AWS Cloud account.
 - Launch an EC2 instance (I am using Ubuntu 22.04) to be used as a master node.
    
