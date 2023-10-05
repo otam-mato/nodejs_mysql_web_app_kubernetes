@@ -123,14 +123,15 @@ Follow these steps for successful implementation:
 
 Before starting, ensure the following prerequisites are met:
 
-1. Launch an EC2 instance (I am using Ubuntu 22.04) to be used as a master node.
+1. An AWS Cloud account.
+2. Launch an EC2 instance (I am using Ubuntu 22.04) to be used as a master node.
    
-2. <details markdown=1><summary markdown="span">Install and configure your AWS CLI.</summary>
+3. <details markdown=1><summary markdown="span">Install and configure your AWS CLI.</summary>
    <br>
    `eksctl` relies on the AWS CLI for certain operations. If you don't have the AWS CLI installed, you can follow the AWS documentation to install it: [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
    
    </details>
-3. <details markdown=1><summary markdown="span">Install `eksctl`.</summary>
+4. <details markdown=1><summary markdown="span">Install `eksctl`.</summary>
    <br>
    Follow these steps to install `eksctl` on your Ubuntu system:
 
@@ -156,7 +157,7 @@ Before starting, ensure the following prerequisites are met:
    
    </details>
    
-4. <details markdown=1><summary markdown="span">Install `kubectl`.</summary>
+5. <details markdown=1><summary markdown="span">Install `kubectl`.</summary>
    <br>
    Follow this steps to install and configure the latest version of `kubectl` on your system.
 
@@ -187,13 +188,13 @@ Before starting, ensure the following prerequisites are met:
    
    </details>
 
-5. <details markdown=1><summary markdown="span">Create the infrastructure for your EKS cluster.</summary>
+6. <details markdown=1><summary markdown="span">Create the infrastructure for your EKS cluster.</summary>
    <br>
    [The example of AWS CloudFormation template which you can use](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/305d93c75ea4fbfd5785f0862ac44e9a220f4642/EKS_sample_VPC.yml)
 
    </details>
 
-6. <details markdown=1><summary markdown="span">Create your Kubernetes cluster in AWS EKS using `eksctl`</summary>
+7. <details markdown=1><summary markdown="span">Create your Kubernetes cluster in AWS EKS using `eksctl`</summary>
    <br>
    
    ```
