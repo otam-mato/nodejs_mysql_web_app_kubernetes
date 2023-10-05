@@ -211,6 +211,22 @@ Before starting, ensure the following prerequisites are met:
 ## 1. Create the deployment of V1 of the app
 ## 2. Create the service of a 'LoadBalancer' type to expose the cluster
 ## 3. Create the service for the MySQL pod to set up the communication with NodeJS containers
+## 4. Create the deployment of V2 of the app
+## 5. Scale up the replicas of V2 up to 2 pods
+## 6. Scale down the replicas of V1 up to 4 pods
+## 7. Test the app
+
+<br>
+
+>**Note:** To achieve more advanced traffic distribution between different versions in a production environment, an Ingress controller like 'Istio' or 'NGINX ingress is typically used.' It's worth noting that I plan to implement this advanced setup in my upcoming projects to keep the current one focused and straightforward.
+
+
+
+
+
+
+
+
 
 
 
