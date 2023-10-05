@@ -228,9 +228,19 @@ kubectl scale deployment <deployment-name> --replicas=4
 
 ### 7. Test the app
 
+- **Note the Load Balancer's DNS name**:
+
+<br>
+
 <p align="center">
    <img width="700" alt="Screenshot 2023-10-05 at 19 33 42" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/0df05499-e5cd-41aa-840f-f5ba80f71ddd">
 </p>
+
+<br>
+
+- **Paste the Load Balancer's DNS name into your browser and refresh the page a few times to see the traffic is distributed between two versions of the app**:
+
+<br>
 
 <p align="center">
    <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/06d351e7-eba6-4c28-a44a-57a842d4070b" width="300px"/>
