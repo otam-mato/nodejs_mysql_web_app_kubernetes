@@ -224,7 +224,9 @@ kubectl apply -f deployment_app_v1.yaml
 
 - **I encoded the DB password using base64 and pasted it into mysql-secret.yml:**
 
-<img width="1000" alt="Screenshot 2023-10-03 at 23 19 10" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/cfadecee-4586-48e9-ba90-c82c8be08658">
+<p align="center">
+   <img width="700" alt="Screenshot 2023-10-05 at 19 33 42" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/cfadecee-4586-48e9-ba90-c82c8be08658"> 
+</p>
 
 - **Create the secret:**
 
