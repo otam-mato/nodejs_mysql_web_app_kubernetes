@@ -1,4 +1,3 @@
-[under revision]
 
 # Node.JS + MySQL Web App.<br><br>"Canary" deployment on Kubernetes.
 
