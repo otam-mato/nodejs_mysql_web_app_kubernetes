@@ -164,7 +164,7 @@ Follow these steps for successful implementation:
    
    </details>
    
-- <details markdown=1><summary markdown="span">Install **`kubectl`**.</summary>
+- <details markdown=1><summary markdown="span">Install `kubectl`.</summary>
    <br>
    Follow this steps to install and configure the latest version of `kubectl` on your system.
 
