@@ -206,7 +206,7 @@ Follow these steps for successful implementation:
    <br>
    
    ```
-   eksctl create cluster --name test-cluster4 --version 1.28 --region us-east-1 --nodegroup-name nodejs-nodes --node-type t2.micro --nodes 5
+   eksctl create cluster --name test-cluster --version 1.28 --region us-east-1 --nodegroup-name nodejs-nodes --node-type t2.micro --nodes 5
    ```
    <p align="center">
      <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/42ff2b42-1e9d-4b5a-87ff-f8264bc4034e" width="700px"/>
