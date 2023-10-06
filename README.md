@@ -129,13 +129,13 @@ Follow these steps for successful implementation:
 
 ## Prerequisites
 
-- AWS Cloud account.
-- Launch an EC2 instance (I am using Ubuntu 22.04) to be used as a master node.
+- **AWS Cloud** account.
+- Launch an **EC2** instance (I am using **Ubuntu 22.04**) to be used as a master node.
    
 - <details markdown=1><summary markdown="span">Install and configure your AWS CLI.</summary>
    <br>
    
-   `eksctl` relies on the AWS CLI for certain operations. If you don't have the AWS CLI installed, you can follow the AWS documentation to install it: [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+   **`eksctl`** relies on the **AWS CLI** for certain operations. If you don't have the **AWS CLI** installed, you can follow the **AWS** documentation to install it: [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
    
    </details>
 - <details markdown=1><summary markdown="span">Install `eksctl`.</summary>
@@ -144,7 +144,7 @@ Follow these steps for successful implementation:
 
    - **Install `eksctl` using `curl`** (Recommended):
    
-      You can use the following `curl` command to download and install `eksctl`:
+      You can use the following **`curl`** command to download and install **`eksctl`**:
    
       ```bash
       sudo curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | sudo tar xz -C /usr/local/bin
@@ -154,17 +154,17 @@ Follow these steps for successful implementation:
    
    - **Verify the installation**:
    
-      After the installation is complete, you can verify that `eksctl` is installed by running the following command:
+      After the installation is complete, you can verify that **`eksctl`** is installed by running the following command:
    
       ```bash
       eksctl version
       ```
    
-      This command should display the version of `eksctl` if it was installed successfully.
+      This command should display the version of **`eksctl`** if it was installed successfully.
    
    </details>
    
-- <details markdown=1><summary markdown="span">Install `kubectl`.</summary>
+- <details markdown=1><summary markdown="span">Install **`kubectl`**.</summary>
    <br>
    Follow this steps to install and configure the latest version of `kubectl` on your system.
 
