@@ -199,6 +199,10 @@ Follow these steps for successful implementation:
    
    [The example of AWS CloudFormation template which you can use](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/305d93c75ea4fbfd5785f0862ac44e9a220f4642/EKS_sample_VPC.yml)
 
+  <p align="center">
+   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/aba5ed9d-08d6-491a-8c3c-4626880935d2" width="800px"/>
+  </p>
+
    </details>
 
 - <details markdown=1><summary markdown="span">Create your Kubernetes cluster in AWS EKS using `eksctl`</summary>
