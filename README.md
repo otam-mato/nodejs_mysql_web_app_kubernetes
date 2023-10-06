@@ -312,7 +312,7 @@ kubectl scale deployment <deployment-name> --replicas=4
 
 <br>
 
-- **Paste the Load Balancer's DNS name into your browser and refresh the page a few times to see the traffic is distributed between the two versions of the app**:
+- **Paste the Load Balancer's DNS name into your browser's addres field and refresh the page a few times to see the traffic is distributed between the two versions of the app**:
 
 <br>
 
