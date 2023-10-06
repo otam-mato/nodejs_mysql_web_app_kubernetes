@@ -1,6 +1,5 @@
 [under revision]
 
-
 # Node.JS + MySQL Web App.<br><br>"Canary" deployment on Kubernetes.
 
 <br>
@@ -120,7 +119,7 @@ Follow these steps for successful implementation:
 ## Architecture Diagram
 
 <p align="center">
-  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/81d3e8e2-0623-4629-9096-8bc0bd28aee8" width="1000px"/>
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/4e7df6bb-3708-47dd-97d8-c21496adeeaa" width="1000px"/>
 </p>
 
 >**Note:** For demo purposes I have chosen to deploy just a single MySQL container pod. Configuring additional pods for replication and data synchronization involves more intricate configurations. I intend to incorporate these advanced setups in my future projects, ensuring that the current project remains concise and straightforward.
