@@ -89,9 +89,9 @@ Follow these steps for successful implementation:
 
 1. [**Create infrastructure for your cluster**](https://github.com/otam-mato/nodejs_mysql_web_app_docker/blob/main/README.md#1-mysql-containerized-server)
 2. [**Create a EKS cluster with 'eksctl'**](https://github.com/otam-mato/nodejs_mysql_web_app_docker/blob/main/README.md#2-nodejs-app-containerized-server)
-3. [**Deploy the V1 app**](https://github.com/otam-mato/nodejs_mysql_web_app_docker/blob/main/README.md#3-test-the-app)
-4. [**Deploy the V2 app**](https://github.com/otam-mato/nodejs_mysql_web_app_docker/blob/main/README.md#4-push-the-images-to-docker-hub)
-5. [**Test the app**](https://github.com/otam-mato/nodejs_mysql_web_app_docker/blob/main/README.md#4-push-the-images-to-docker-hub)
+3. [**Deploy the V1 app**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#1-test-the-app)
+4. [**Deploy the V2 app**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#4-test-the-app)
+5. [**Test the app**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#7-test-the-app)
 
 <br>
 
