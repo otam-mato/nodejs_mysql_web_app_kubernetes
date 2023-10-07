@@ -25,13 +25,13 @@ The "canary" deployment strategy is used to minimize the risk associated with ro
 <br>
 
 ## Technologies used
-- AWS
-- EKS
-- Node.JS
-- Express
-- JavaScript
-- MySQL
-- Kubernetes
+- **AWS**
+- **EKS**
+- **Node.JS**
+- **Express**
+- **JavaScript**
+- **MySQL**
+- **Kubernetes**
 <br>
 
 ## Application Functionality
